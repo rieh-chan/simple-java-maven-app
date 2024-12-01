@@ -21,10 +21,5 @@ pipeline {
                 bat './jenkins/scripts/deliver.bat'
             }
         }
-        stage('Stage Complete') {
-            steps {
-                bat 'echo job complete'
-            }
-        }
     }
 }
